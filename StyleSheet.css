@@ -61,6 +61,11 @@ body{
     color: rgb(2, 54, 96);
 }
 
+#enlace{
+    text-decoration: none;
+    color: rgb(2, 54, 96);
+}
+
 /*INICIO MENU VERTICAL*/
 #menuvertical{
     position: fixed; 
@@ -100,3 +105,36 @@ body{
     background-color: #444;
 }
 /*FIN COOKIES*/
+
+/*INICIO FLEXBOX*/
+
+.box{
+    box-sizing: border-box;
+    padding: 2px;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.parent{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 20px;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho ";
+}
+.box img {
+    transition: transform 0.5s; 
+}
+
+.box img:hover {
+    transform: scale(1.1); 
+}
+/*FIN FLEXBOX*/
+
