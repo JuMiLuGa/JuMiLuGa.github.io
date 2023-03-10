@@ -178,3 +178,117 @@ button[type="submit"]:hover {
   color: black;
 }
 /*FIN FORMULARIO LOGIN*/
+
+/*INICIO RESPONSIVE*/
+/* Estilos para dispositivos con una anchura menor o igual a 576px (por ejemplo, smartphones en posición vertical) */
+@media screen and (max-width: 576px) {
+    /* Estilos para la cabecera */
+    .header {
+      padding: 20px 10px;
+    }
+    .logo {
+      font-size: 24px;
+      margin-right: 10px;
+    }
+    .nav {
+      flex-direction: column;
+    }
+    .nav a {
+      padding: 10px 0;
+      border-bottom: 1px solid #ccc;
+    }
+    /* Estilos para el contenido */
+    .main {
+      padding: 20px 10px;
+    }
+    .article {
+      margin-bottom: 20px;
+    }
+    .article img {
+      max-width: 100%;
+      height: auto;
+    }
+    .article h2 {
+      font-size: 24px;
+    }
+    .article p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Estilos para dispositivos con una anchura mayor a 576px y menor o igual a 768px (por ejemplo, smartphones en posición horizontal o tablets en posición vertical) */
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    /* Estilos para la cabecera */
+    .header {
+      padding: 20px;
+    }
+    .logo {
+      font-size: 32px;
+      margin-right: 20px;
+    }
+    .nav {
+      flex-direction: row;
+    }
+    .nav a {
+      padding: 20px;
+      border-bottom: none;
+    }
+    /* Estilos para el contenido */
+    .main {
+      padding: 40px;
+    }
+    .article {
+      margin-bottom: 40px;
+    }
+    .article img {
+      max-width: 100%;
+      height: auto;
+    }
+    .article h2 {
+      font-size: 32px;
+    }
+    .article p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Estilos para dispositivos con una anchura mayor a 768px (por ejemplo, tablets en posición horizontal, laptops y desktops) */
+  @media screen and (min-width: 769px) {
+    /* Estilos para la cabecera */
+    .header {
+      padding: 40px;
+    }
+    .logo {
+      font-size: 48px;
+      margin-right: 40px;
+    }
+    .nav {
+      flex-direction: row;
+    }
+    .nav a {
+      padding: 20px;
+      border-bottom: none;
+    }
+    /* Estilos para el contenido */
+    .main {
+      padding: 60px;
+    }
+    .article {
+      margin-bottom: 60px;
+    }
+    .article img {
+      max-width: 100%;
+      height: auto;
+    }
+    .article h2 {
+      font-size: 48px;
+    }
+    .article p {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+  
+/*FIN RESPONSIVE*/
