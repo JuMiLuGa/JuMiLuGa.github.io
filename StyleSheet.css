@@ -180,7 +180,7 @@ button[type="submit"]:hover {
 /*FIN FORMULARIO LOGIN*/
 
 /*INICIO RESPONSIVE*/
-/* Estilos para dispositivos con una anchura menor o igual a 576px (por ejemplo, smartphones en posición vertical) */
+/* Estilos para dispositivos con una anchura menor o igual a 576px*/
 @media screen and (max-width: 576px) {
     /* Estilos para la cabecera */
     .header {
@@ -217,7 +217,7 @@ button[type="submit"]:hover {
     }
   }
   
-  /* Estilos para dispositivos con una anchura mayor a 576px y menor o igual a 768px (por ejemplo, smartphones en posición horizontal o tablets en posición vertical) */
+  /* Estilos para dispositivos con una anchura mayor a 576px y menor o igual a 768px */
   @media screen and (min-width: 577px) and (max-width: 768px) {
     /* Estilos para la cabecera */
     .header {
@@ -254,7 +254,7 @@ button[type="submit"]:hover {
     }
   }
   
-  /* Estilos para dispositivos con una anchura mayor a 768px (por ejemplo, tablets en posición horizontal, laptops y desktops) */
+  /* Estilos para dispositivos con una anchura mayor a 768px */
   @media screen and (min-width: 769px) {
     /* Estilos para la cabecera */
     .header {
