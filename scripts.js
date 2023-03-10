@@ -14,3 +14,5 @@ rejectButton.addEventListener('click', () => {
   // Oculta el elemento del mensaje de cookies
   cookieMessage.style.display = 'none';
 });
+
+
