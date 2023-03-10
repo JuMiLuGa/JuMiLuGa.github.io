@@ -6,13 +6,7 @@
          <link rel="stylesheet" href="StyleSheet.css">
          <link rel="shortcut icon" href="./imagenes/logoico.png"/>
 
-         <script>
-            function redirigir() {
-                setTimeout(function() {
-                window.location.href = "index.html";
-                }, 3000);
-            }
-         </script>
+         
     </head>
 
     <header>
@@ -32,10 +26,49 @@
 
 		<h1 style="text-align: center; color:rgb(2, 54, 96)">Iniciar sesion en Husqvarna Motorcycles</h1>
         <form>
+            <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required>
+
+    <label for="ciudad">Ciudad:</label>
+    <input type="text" id="ciudad" name="ciudad" required>
+
+    <label for="estado">Estado/Provincia:</label>
+    <input type="text" id="estado" name="estado" required>
+
+    <label for="pais">País:</label>
+    <input type="text" id="pais" name="pais" required>
+
+    <label for="codigo-postal">Código Postal:</label>
+    <input type="text" id="codigo-postal" name="codigo-postal" required>
+
+    <label>
+      <input type="checkbox" name="terminos" required>
+      Acepto los términos y condiciones
+    </label>
+
             <!-- Agrega tus campos de formulario aquí -->
-            <button type="submit" onclick="redirigir()">Enviar</button>
+            <button type="submit" onclick="redirigir(); return false;">Enviar</button>
           </form>
           
+          <script>
+            function redirigir() {
+                setTimeout(function() {
+                    window.location.href = "./index.html";
+                }, 3000);
+            }
+          </script>
 
 <!--INICIO COOKIES-->
 <div id="cookie-message">

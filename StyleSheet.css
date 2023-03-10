@@ -138,3 +138,43 @@ body{
 }
 /*FIN GRID*/
 
+/*INICIO FORMULARIO LOGIN*/
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: rgb(2, 54, 96);;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: yellow;
+  color: black;
+}
+/*FIN FORMULARIO LOGIN*/
